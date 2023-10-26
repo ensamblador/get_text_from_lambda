@@ -1,7 +1,16 @@
 
-# Welcome to your CDK Python project!
+# Extract text from files using PyPDF or Amazon Textract
 
-This is a blank project for CDK development with Python.
+This project deploys 2 lambdas:
+
+* PyPDF_S3: reads from s3 and uses PyPDF2 to extract text and saves that to s3
+* textract_s3: reads from s3 and uses amazon textract to get text and saves that to s3.
+
+![](textract_pypdf.jpg)
+
+Deploy instructions:
+
+# Deploy instructions
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
