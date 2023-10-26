@@ -8,6 +8,13 @@ This project deploys 2 lambdas:
 
 ![](textract_pypdf.jpg)
 
+
+After the deployment invoke the lambdas with the following event:
+
+```json
+{ "s3_uri": "s3://yourbucket/yourkey" }
+```
+
 Deploy instructions:
 
 # Deploy instructions
