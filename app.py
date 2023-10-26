@@ -7,7 +7,7 @@ from ocr_on_lambda.ocr_on_lambda_stack import OcrOnLambdaStack
 
 
 app = cdk.App()
-OcrOnLambdaStack(app, "OcrOnLambdaStack",
+OcrOnLambdaStack(app, "Ocr",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
