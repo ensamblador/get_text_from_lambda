@@ -15,6 +15,17 @@ After the deployment invoke the lambdas with the following event:
 { "s3_uri": "s3://yourbucket/yourkey" }
 ```
 
+The resulting textraction will be written in `s3://yourbucket/yourkey.json` (same name but json extension).
+
+The output of the function will be like this:
+
+```json
+{ 
+    "s3_uri": "s3://yourbucket/yourkey",
+    "transcript": "s3://yourbucket/yourbucket.json"
+}
+```
+
 Deploy instructions:
 
 # Deploy instructions
